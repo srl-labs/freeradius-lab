@@ -1,2 +1,5 @@
-"bob" Cleartext-Password := "clab123"
+"alice" Cleartext-Password := "alice123"
       Timetra-Profile := "admin"
+
+"bob" Cleartext-Password := "bob123"
+      Timetra-Profile := "viewer"

@@ -5,6 +5,7 @@ topology:
     srl:
       kind: nokia_srlinux
       image: ghcr.io/nokia/srlinux:23.10.1
+
     radius:
       kind: linux
       image: freeradius/freeradius-server:3.2.3
