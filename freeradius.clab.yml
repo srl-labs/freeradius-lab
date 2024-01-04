@@ -1,0 +1,15 @@
+name: radius
+
+topology:
+  nodes:
+    srl:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:23.10.1
+    radius:
+      kind: linux
+      image: freeradius/freeradius-server:3.2.3
+      cmd: -X
+      mgmt-ipv4: 172.20.20.111
+      binds:
+        - raddb/clients.conf:/etc/raddb/clients.conf
+        - raddb/mods-config/files/authorize:/etc/raddb/mods-config/files/authorize

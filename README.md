@@ -1,2 +1,1 @@
-# freeradius-lab
-Using FreeRADIUS server with SR Linux
+# SR Linux authentication with FreeRADIUS
