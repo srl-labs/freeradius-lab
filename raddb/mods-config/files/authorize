@@ -1,5 +1,5 @@
 "alice" Cleartext-Password := "alice123"
-      Timetra-Profile := "admin"
+      Timetra-SRL-Auth-User-Role := "admin"
 
 "bob" Cleartext-Password := "bob123"
-      Timetra-Profile := "viewer"
+      Timetra-SRL-Auth-User-Role := "viewer"

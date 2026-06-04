@@ -1,0 +1,8 @@
+VENDOR          Alcatel-IPD               6527
+
+BEGIN-VENDOR    Alcatel-IPD format=Extended-Vendor-Specific-2
+
+ATTRIBUTE Timetra-SRL-Auth-User-Role         1      string
+ATTRIBUTE Timetra-SRL-Cmd                    2      string
+
+END-VENDOR      Alcatel-IPD
